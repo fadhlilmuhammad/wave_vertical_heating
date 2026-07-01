@@ -1,0 +1,22 @@
+Loading cdo/2.6.0
+  Loading requirement: intel-mkl/2023.2.0 python3/3.12.1
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840101_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19831201_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19831101_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19831001_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840801_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840301_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840201_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840401_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19850301_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840601_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840501_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840901_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19850201_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19840701_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19841101_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19841201_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19850401_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19841001_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19850101_e03_2-5deg.nc: No such file or directory
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh: line 25: _out_path/da_wa_19850501_e03_2-5deg.nc: No such file or directory

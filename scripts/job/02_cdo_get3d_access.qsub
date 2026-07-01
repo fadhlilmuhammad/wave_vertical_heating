@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Run an embarrassingly parallel job, where each command is totally independent
+# Uses GNU Parallel as a task scheduler, then executes each task on the available CPUs with pbsdsh
+
+#PBS -q normalbw
+#PBS -l ncpus=20
+#PBS -l walltime=15:00:00
+#PBS -l mem=200gb
+#PBS -l wd
+#PBS -P v46
+#PBS -l jobfs=10GB
+#PBS -l storage=scratch/v46+gdata/v46+gdata/ux62+gdata/xp65+gdata/su28
+#PBS -N cdo_getdata
+#PBS -o /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/cdo_getdata_access.out
+#PBS -e /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/cdo_getdata_access.err
+
+
+module load parallel
+module load cdo
+
+var=$var
+ens=$ens
+INPUTS=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/year.txt
+SCRIPT=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh
+echo $INPUTS
+cat ${INPUTS}
+
+PARALLEL_CPU=20
+echo "Testing parallel execution command (dry run):"
+parallel --dry-run -j ${PARALLEL_CPU} --colsep ' ' bash ${SCRIPT} {1} ${var} ${ens} :::: ${INPUTS}
+
+echo "Starting parallel execution:"
+parallel -j ${PARALLEL_CPU} --colsep ' ' bash ${SCRIPT} {1} ${var} ${ens} :::: ${INPUTS}
