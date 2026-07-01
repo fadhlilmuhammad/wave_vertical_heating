@@ -16,13 +16,17 @@
 #PBS -e /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/cdo_getdata_access.err
 
 
+
 module load parallel
 module load cdo
 
 var=$var
 ens=$ens
-INPUTS=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/year.txt
 SCRIPT=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/cdo_get3d_access.sh
+CHUNK_DIR=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/chunks
+INPUTS=$input_file
+
+
 echo $INPUTS
 cat ${INPUTS}
 

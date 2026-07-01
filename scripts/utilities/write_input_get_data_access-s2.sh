@@ -1,24 +1,23 @@
 #!/bin/bash
 
-# for var in t q u v w; do
-#     for e in e01 e02 e03; do
+outfile="/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/year_foraccess.txt"
 
-        outfile="/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/year.txt"
+> "$outfile"
 
-        > "$outfile"
+current="1981-02-01"
 
-        current="1982-02-01"
-        end="2018-12-01"
+while [[ "$current" < "2019-01-01" ]]; do
 
-        while [[ "$current" < "2019-01-01" ]]; do
-            yyyymmdd=$(date -d "$current" +%Y%m%d)
+    d0=$(date -d "$current" +%Y%m%d)
+    d1=$(date -d "$current -1 day" +%Y%m%d)
+    d2=$(date -d "$current -2 day" +%Y%m%d)
 
-            echo "$yyyymmdd $var $e" >> "$outfile"
+    echo "$d2 $var $e" >> "$outfile"
+    echo "$d1 $var $e" >> "$outfile"
+    echo "$d0 $var $e" >> "$outfile"
 
-            current=$(date -d "$current +1 month" +%Y-%m-%d)
-        done
+    current=$(date -d "$current +1 month" +%Y-%m-%d)
 
-        chmod +x "$outfile"
+done
 
-#     done
-# done
+chmod +x "$outfile"
