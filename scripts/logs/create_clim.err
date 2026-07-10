@@ -1,3 +1,4 @@
 Loading conda/analysis3-26.05
   Loading requirement: singularity
-/g/data/xp65/public/apps/med_conda_scripts/analysis3-26.05.d/bin/python3: can't open file '/home/563/fm6730/localrepo/wave_vertical_heating/scripts/create_clim.py': [Errno 2] No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)

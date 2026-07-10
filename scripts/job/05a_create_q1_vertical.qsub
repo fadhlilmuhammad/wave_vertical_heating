@@ -1,0 +1,69 @@
+#!/bin/bash
+# Run an embarrassingly parallel job, where each command is totally independent
+# Uses GNU Parallel as a task scheduler, then executes each task on the available CPUs with pbsdsh
+
+#PBS -q normalbw
+#PBS -l ncpus=20
+#PBS -l walltime=15:00:00
+#PBS -l mem=200gb
+#PBS -l wd
+#PBS -P v46
+#PBS -l jobfs=200GB
+#PBS -l storage=scratch/v46+gdata/v46+gdata/ux62+gdata/xp65+gdata/su28
+#PBS -N create_q1
+#PBS -o /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/create_q1.out
+#PBS -e /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/create_q1.err
+
+module use /g/data/xp65/public/modules/
+module load conda/analysis3
+module load ncl
+module load parallel
+
+ens=$ens
+
+# SCRIPT=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/bash_ncl_make_vimfc_s2s.sh
+CHUNK_DIR=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/chunks
+INPUTS=$input_file
+
+run_case () {
+    init=$(echo "$1" | xargs)
+
+    echo "$init $ens"
+
+    module use /g/data/xp65/public/modules/
+    module load conda/analysis3
+    module load ncl
+
+    ncl "init=\"$init\"" "ens=\"$ens\"" \
+        /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_s2s.ncl \
+        || return 1
+
+    python3 \
+        /home/563/fm6730/localrepo/wave_vertical_heating/scripts/utilities/compression_s2s_q1.py \
+        "$init" "$ens" \
+        || return 1
+
+    rm -f \
+    /home/563/fm6730/localrepo/wave_vertical_heating/data/derived/q1_vert_structure/access-s2/${ens}/da_q1q2_yanai_${init}_${ens}_remap.nc
+}
+
+export -f run_case
+export ens
+
+
+parallel -j ${PBS_NCPUS} run_case :::: ${INPUTS}
+# parallel --dry-run -j 2 run_case :::: ${INPUTS}
+# cat ${INPUTS}
+# echo $INPUTS
+# # cat ${INPUTS}
+
+# PARALLEL_CPU=20
+# echo "Testing parallel execution command (dry run):"
+# parallel --dry-run -j ${PARALLEL_CPU} --colsep ' ' bash ${SCRIPT} {1} ${ens} :::: ${INPUTS}
+
+# echo "Starting parallel execution:"
+# parallel -j ${PARALLEL_CPU} --colsep ' ' bash ${SCRIPT} {1} ${ens} :::: ${INPUTS}
+
+
+# var=t
+# python3 /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/create_doyclim.py $var

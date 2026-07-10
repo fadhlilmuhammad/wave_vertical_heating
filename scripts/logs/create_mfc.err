@@ -1,0 +1,302 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20110831_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111129_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111201_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111001_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120201_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120131_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111230_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111101_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20110929_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20110901_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111130_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120101_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120130_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111030_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20110801_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111231_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20111031_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120228_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20110830_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20110930_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120301_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120501_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120229_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120601_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120401_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120801_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120730_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120731_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120831_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120330_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120331_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120901_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120531_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120530_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120701_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120429_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120629_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120430_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120630_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120830_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120929_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20120930_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121001_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130131_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121030_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121031_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121129_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121130_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130330_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130331_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121101_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130101_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121230_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130130_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121231_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130228_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20121201_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130201_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130227_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130301_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130401_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130429_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130501_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130530_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130629_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130730_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131030_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130531_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130930_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130731_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130630_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130801_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130701_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130430_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130830_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130901_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130831_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131001_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130601_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131031_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131101_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20130929_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131129_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131130_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131201_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140429_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140330_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140301_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140131_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140101_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140228_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131230_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140331_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140501_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140201_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140130_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20131231_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140401_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140227_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+rm: cannot remove '/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/mfc_vert_structure/access-s2/e03/da_moisture_budget_20140430_e03_remap.nc': No such file or directory
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)

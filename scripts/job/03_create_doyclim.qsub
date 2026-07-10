@@ -17,5 +17,6 @@
 module use /g/data/xp65/public/modules/
 module load conda/analysis3
 
-var=$1
-python3 /home/563/fm6730/localrepo/wave_vertical_heating/scripts/create_clim.py $var
+var=$var
+# var=t
+python3 /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/create_doyclim.py $var
