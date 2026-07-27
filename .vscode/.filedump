@@ -1,0 +1,6 @@
+
+		begin
+      f = addfile("/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/daily_clim/era5/q/q_era5_doyclim_1979-2020.nc","r")
+      print(f)
+		end
+    

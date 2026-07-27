@@ -119,16 +119,16 @@ dT_dt@units = "K/s"
 printVarSummary(dT_dt)
 printMinMax(dT_dt, False)
 
-print("Calculating temporal tendency of moisture...")
+; print("Calculating temporal tendency of moisture...")
 
-  q1 = q
-  q1(1:ntime-1,:,:,:) = (/q(0:ntime-2,:,:,:)/)
+;   q1 = q
+;   q1(1:ntime-1,:,:,:) = (/q(0:ntime-2,:,:,:)/)
 
-  dq_dt = (/(q-q1)/86400.0/)
-  copy_VarCoords(q, dq_dt)
+;   dq_dt = (/(q-q1)/86400.0/)
+;   copy_VarCoords(q, dq_dt)
 
-dq_dt@long_name = "Temporal tendency of moisture"
-dq_dt@units = "kg/kg s**-1"
+; dq_dt@long_name = "Temporal tendency of moisture"
+; dq_dt@units = "kg/kg s**-1"
 
 
 ;****************************************
@@ -232,7 +232,7 @@ coords_lat = coords->lat
 coords_lon = coords->lon
 
 fo_q1 = area_conserve_remap_Wrap (q1&lon,q1&lat,q1, coords_lon,coords_lat({latS:latN}), False)
-fo_dq_dt = area_conserve_remap_Wrap (dq_dt&lon,dq_dt&lat,dq_dt, coords_lon,coords_lat({latS:latN}), False)
+; fo_dq_dt = area_conserve_remap_Wrap (dq_dt&lon,dq_dt&lat,dq_dt, coords_lon,coords_lat({latS:latN}), False)
 fo_Q1_cp = area_conserve_remap_Wrap (Q1_cp&lon,Q1_cp&lat,Q1_cp, coords_lon,coords_lat({latS:latN}), False)
 
 

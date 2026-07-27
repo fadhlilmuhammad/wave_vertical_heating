@@ -1,0 +1,5 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  mod = _real_import(name, globals, locals, fromlist, level)
+=>> PBS: job killed: walltime 54066 exceeded limit 54000

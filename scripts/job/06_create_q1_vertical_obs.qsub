@@ -10,9 +10,9 @@
 #PBS -P v46
 #PBS -l jobfs=200GB
 #PBS -l storage=scratch/v46+gdata/v46+gdata/ux62+gdata/xp65+gdata/su28
-#PBS -N create_q1
-#PBS -o /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/create_q1.out
-#PBS -e /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/create_q1.err
+#PBS -N create_q1_obs
+#PBS -o /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/create_q1_obs.out
+#PBS -e /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/create_q1_obs.err
 
 module use /g/data/xp65/public/modules/
 module load conda/analysis3
@@ -22,7 +22,7 @@ module load parallel
 
 # SCRIPT=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/bash_ncl_make_vimfc_s2s.sh
 # CHUNK_DIR=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/chunks
-INPUTS=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/getdata_input_q.txt
+INPUTS=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/year_input.txt
 
 run_case () {
     year=$(echo "$1" | xargs)

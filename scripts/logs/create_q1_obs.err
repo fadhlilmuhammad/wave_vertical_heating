@@ -1,0 +1,1507 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 2662400, vmem 53932032
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475473, rss 3051520, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475483, rss 3031040, vmem 10362880
+Process "bash", pid 2475487, rss 2756608, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475499, rss 2596864, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475504, rss 2748416, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 10796130304, vmem 11635998720
+Process "ncl", pid 2475750, rss 10244857856, vmem 11605565440
+Process "ncl", pid 2475754, rss 10841391104, vmem 11605536768
+Process "ncl", pid 2475764, rss 11136356352, vmem 11605565440
+Process "ncl", pid 2475765, rss 10337042432, vmem 11635994624
+Process "ncl", pid 2475768, rss 10430205952, vmem 11605544960
+Process "ncl", pid 2475771, rss 10813337600, vmem 11605549056
+Process "ncl", pid 2475773, rss 11107827712, vmem 11605532672
+Process "ncl", pid 2475775, rss 10316574720, vmem 11605536768
+Process "ncl", pid 2475776, rss 10578862080, vmem 11636002816
+Process "ncl", pid 2475779, rss 11173003264, vmem 11605565440
+Process "ncl", pid 2475780, rss 10929348608, vmem 11605540864
+Process "ncl", pid 2475781, rss 10572558336, vmem 11636019200
+Process "ncl", pid 2475782, rss 10175807488, vmem 11605561344
+Process "ncl", pid 2475783, rss 10030596096, vmem 11635998720
+Process "ncl", pid 2475784, rss 10653655040, vmem 11605532672
+Process "ncl", pid 2475785, rss 11057336320, vmem 11605549056
+Process "ncl", pid 2475786, rss 10276601856, vmem 11605561344
+Process "ncl", pid 2475787, rss 10759020544, vmem 11605569536
+Process "ncl", pid 2475788, rss 11062087680, vmem 11605553152
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475779 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 6909952, vmem 54067200
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475473, rss 3051520, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475483, rss 3031040, vmem 10362880
+Process "bash", pid 2475487, rss 2756608, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475499, rss 2596864, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 9834446848, vmem 10265694208
+Process "ncl", pid 2475750, rss 11237904384, vmem 11668639744
+Process "ncl", pid 2475754, rss 12933984256, vmem 14527881216
+Process "ncl", pid 2475764, rss 9875439616, vmem 10239004672
+Process "ncl", pid 2475765, rss 10552029184, vmem 10982465536
+Process "ncl", pid 2475768, rss 9159479296, vmem 9524166656
+Process "ncl", pid 2475771, rss 11303899136, vmem 11668623360
+Process "ncl", pid 2475773, rss 10532872192, vmem 10953789440
+Process "ncl", pid 2475775, rss 10547994624, vmem 11668611072
+Process "ncl", pid 2475776, rss 11278987264, vmem 11699249152
+Process "ncl", pid 2475780, rss 11696041984, vmem 12383432704
+Process "ncl", pid 2475781, rss 11366977536, vmem 12416040960
+Process "ncl", pid 2475782, rss 10531008512, vmem 10953818112
+Process "ncl", pid 2475783, rss 9117093888, vmem 9548918784
+Process "ncl", pid 2475784, rss 11082878976, vmem 11668606976
+Process "ncl", pid 2475785, rss 10588590080, vmem 10953805824
+Process "ncl", pid 2475786, rss 10847313920, vmem 11668635648
+Process "ncl", pid 2475787, rss 10938613760, vmem 11668643840
+Process "ncl", pid 2475788, rss 10580004864, vmem 11668627456
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 9167810560, vmem 9524158464
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475754 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7151616, vmem 54067200
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475473, rss 3051520, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475487, rss 2756608, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475499, rss 2596864, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 10552020992, vmem 10982469632
+Process "ncl", pid 2475750, rss 13110689792, vmem 14527909888
+Process "ncl", pid 2475764, rss 10455990272, vmem 10951864320
+Process "ncl", pid 2475765, rss 10552217600, vmem 10982465536
+Process "ncl", pid 2475768, rss 9159454720, vmem 9524166656
+Process "ncl", pid 2475771, rss 13361168384, vmem 14527893504
+Process "ncl", pid 2475773, rss 10615033856, vmem 11668606976
+Process "ncl", pid 2475775, rss 10778877952, vmem 11668611072
+Process "ncl", pid 2475776, rss 13268971520, vmem 14566350848
+Process "ncl", pid 2475780, rss 11239325696, vmem 11668615168
+Process "ncl", pid 2475781, rss 11807150080, vmem 12416040960
+Process "ncl", pid 2475782, rss 10531176448, vmem 10953818112
+Process "ncl", pid 2475783, rss 9117097984, vmem 9548918784
+Process "ncl", pid 2475784, rss 11383701504, vmem 12383424512
+Process "ncl", pid 2475785, rss 10588590080, vmem 10953805824
+Process "ncl", pid 2475786, rss 11080904704, vmem 11668635648
+Process "ncl", pid 2475787, rss 11554689024, vmem 12383461376
+Process "ncl", pid 2475788, rss 10815492096, vmem 11668627456
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 9167736832, vmem 9524158464
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 4104314880, vmem 6547849216
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475771 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7200768, vmem 54067200
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475487, rss 2756608, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475499, rss 2596864, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 10551934976, vmem 10982469632
+Process "ncl", pid 2475750, rss 13462110208, vmem 14527909888
+Process "ncl", pid 2475764, rss 10590351360, vmem 10953822208
+Process "ncl", pid 2475765, rss 10552119296, vmem 10982465536
+Process "ncl", pid 2475768, rss 9159389184, vmem 9524166656
+Process "ncl", pid 2475773, rss 10991841280, vmem 11668606976
+Process "ncl", pid 2475775, rss 10961059840, vmem 11668611072
+Process "ncl", pid 2475776, rss 14079959040, vmem 14566350848
+Process "ncl", pid 2475780, rss 13051465728, vmem 14527885312
+Process "ncl", pid 2475781, rss 11586908160, vmem 12416040960
+Process "ncl", pid 2475782, rss 10531102720, vmem 10953818112
+Process "ncl", pid 2475783, rss 9834393600, vmem 10265694208
+Process "ncl", pid 2475784, rss 11731578880, vmem 12383424512
+Process "ncl", pid 2475785, rss 10632544256, vmem 11668623360
+Process "ncl", pid 2475786, rss 11557007360, vmem 12383453184
+Process "ncl", pid 2475787, rss 11891785728, vmem 12383461376
+Process "ncl", pid 2475788, rss 10998755328, vmem 11668627456
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 9167679488, vmem 9524158464
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9229238272, vmem 11636015104
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 2690072576, vmem 5127884800
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475776 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7143424, vmem 54067200
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475487, rss 2756608, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 10593177600, vmem 11699245056
+Process "ncl", pid 2475750, rss 12831895552, vmem 14527909888
+Process "ncl", pid 2475764, rss 10590355456, vmem 10953822208
+Process "ncl", pid 2475765, rss 10929647616, vmem 11699240960
+Process "ncl", pid 2475768, rss 9874292736, vmem 10238984192
+Process "ncl", pid 2475773, rss 11718131712, vmem 12383424512
+Process "ncl", pid 2475775, rss 11435298816, vmem 12383428608
+Process "ncl", pid 2475780, rss 14061957120, vmem 14527885312
+Process "ncl", pid 2475781, rss 12111224832, vmem 13132816384
+Process "ncl", pid 2475782, rss 10995851264, vmem 11668635648
+Process "ncl", pid 2475783, rss 10552004608, vmem 10982469632
+Process "ncl", pid 2475784, rss 11378176000, vmem 13098242048
+Process "ncl", pid 2475785, rss 11129937920, vmem 11668623360
+Process "ncl", pid 2475786, rss 11246305280, vmem 11668635648
+Process "ncl", pid 2475787, rss 11386597376, vmem 13098278912
+Process "ncl", pid 2475788, rss 11730571264, vmem 12383444992
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 9167732736, vmem 9524158464
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 10054983680, vmem 11636015104
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 7510130688, vmem 9947975680
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 4013113344, vmem 6450499584
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475780 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7323648, vmem 54067200
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 10730901504, vmem 11699245056
+Process "ncl", pid 2475750, rss 13761306624, vmem 14527909888
+Process "ncl", pid 2475764, rss 10590363648, vmem 10953822208
+Process "ncl", pid 2475765, rss 11070345216, vmem 11699240960
+Process "ncl", pid 2475768, rss 10589200384, vmem 10953801728
+Process "ncl", pid 2475773, rss 11356516352, vmem 12383424512
+Process "ncl", pid 2475775, rss 11709988864, vmem 12383428608
+Process "ncl", pid 2475781, rss 12885585920, vmem 14566367232
+Process "ncl", pid 2475782, rss 11134910464, vmem 11668635648
+Process "ncl", pid 2475783, rss 10532614144, vmem 10982469632
+Process "ncl", pid 2475784, rss 12380848128, vmem 13098242048
+Process "ncl", pid 2475785, rss 11290710016, vmem 11668623360
+Process "ncl", pid 2475786, rss 12569436160, vmem 13098270720
+Process "ncl", pid 2475787, rss 12422578176, vmem 13098278912
+Process "ncl", pid 2475788, rss 11576832000, vmem 12383444992
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 9167790080, vmem 9524158464
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 10596749312, vmem 11636015104
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9414443008, vmem 11605581824
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 8149323776, vmem 10587045888
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 1259061248, vmem 3697004544
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7315456, vmem 54067200
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 10731155456, vmem 11699245056
+Process "ncl", pid 2475750, rss 13761404928, vmem 14527909888
+Process "ncl", pid 2475764, rss 10590326784, vmem 10953822208
+Process "ncl", pid 2475765, rss 11070603264, vmem 11699240960
+Process "ncl", pid 2475768, rss 10589245440, vmem 10953801728
+Process "ncl", pid 2475773, rss 11357843456, vmem 12383424512
+Process "ncl", pid 2475775, rss 11710017536, vmem 12383428608
+Process "ncl", pid 2475781, rss 12886097920, vmem 14566367232
+Process "ncl", pid 2475782, rss 11135139840, vmem 11668635648
+Process "ncl", pid 2475783, rss 10532589568, vmem 10982469632
+Process "ncl", pid 2475784, rss 12381122560, vmem 13098242048
+Process "ncl", pid 2475785, rss 11291189248, vmem 11668623360
+Process "ncl", pid 2475786, rss 12569497600, vmem 13098270720
+Process "ncl", pid 2475787, rss 12422701056, vmem 13098278912
+Process "ncl", pid 2475788, rss 11578175488, vmem 12383444992
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 9167757312, vmem 9524158464
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 10596671488, vmem 11636015104
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9414443008, vmem 11605581824
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 8149307392, vmem 10587045888
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 1259212800, vmem 3697004544
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7315456, vmem 54067200
+Process "bash", pid 2475469, rss 2469888, vmem 10362880
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475558, rss 2715648, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 10731155456, vmem 11699245056
+Process "ncl", pid 2475750, rss 13761404928, vmem 14527909888
+Process "ncl", pid 2475764, rss 10590326784, vmem 10953822208
+Process "ncl", pid 2475765, rss 11070603264, vmem 11699240960
+Process "ncl", pid 2475768, rss 10589245440, vmem 10953801728
+Process "ncl", pid 2475773, rss 11357843456, vmem 12383424512
+Process "ncl", pid 2475775, rss 11710017536, vmem 12383428608
+Process "ncl", pid 2475781, rss 12886097920, vmem 14566367232
+Process "ncl", pid 2475782, rss 11135139840, vmem 11668635648
+Process "ncl", pid 2475783, rss 10532589568, vmem 10982469632
+Process "ncl", pid 2475784, rss 12381122560, vmem 13098242048
+Process "ncl", pid 2475785, rss 11291189248, vmem 11668623360
+Process "ncl", pid 2475786, rss 12569497600, vmem 13098270720
+Process "ncl", pid 2475787, rss 12422701056, vmem 13098278912
+Process "ncl", pid 2475788, rss 11578175488, vmem 12383444992
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 9167757312, vmem 9524158464
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 10596671488, vmem 11636015104
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9414443008, vmem 11605581824
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 8149307392, vmem 10587045888
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 1259212800, vmem 3697004544
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475750 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+environment: line 1: 2475781 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7348224, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475549, rss 2670592, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 11282190336, vmem 12416020480
+Process "ncl", pid 2475764, rss 11119337472, vmem 11668639744
+Process "ncl", pid 2475765, rss 11703484416, vmem 12416016384
+Process "ncl", pid 2475768, rss 10589130752, vmem 10953801728
+Process "ncl", pid 2475773, rss 12308422656, vmem 13098242048
+Process "ncl", pid 2475775, rss 11207806976, vmem 11668611072
+Process "ncl", pid 2475782, rss 11848040448, vmem 12383453184
+Process "ncl", pid 2475783, rss 10688831488, vmem 11699245056
+Process "ncl", pid 2475784, rss 13721255936, vmem 14527877120
+Process "ncl", pid 2475785, rss 11301965824, vmem 11668623360
+Process "ncl", pid 2475786, rss 13852336128, vmem 14527905792
+Process "ncl", pid 2475787, rss 13920436224, vmem 14527913984
+Process "ncl", pid 2475788, rss 12718804992, vmem 14527897600
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 10597363712, vmem 10953793536
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 11279269888, vmem 11636015104
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 10381541376, vmem 11605581824
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 9862590464, vmem 11605540864
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9076559872, vmem 11514445824
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 4447076352, vmem 6890774528
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 1199497216, vmem 3637526528
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475786 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7335936, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "bash", pid 2475584, rss 2797568, vmem 10362880
+Process "ncl", pid 2475749, rss 11944280064, vmem 12416020480
+Process "ncl", pid 2475764, rss 11679023104, vmem 12383457280
+Process "ncl", pid 2475765, rss 11231551488, vmem 11699240960
+Process "ncl", pid 2475768, rss 10589048832, vmem 10953801728
+Process "ncl", pid 2475773, rss 13360041984, vmem 14527877120
+Process "ncl", pid 2475775, rss 12950110208, vmem 14527881216
+Process "ncl", pid 2475782, rss 11250307072, vmem 13098270720
+Process "ncl", pid 2475783, rss 11116359680, vmem 11699245056
+Process "ncl", pid 2475784, rss 13546352640, vmem 14527877120
+Process "ncl", pid 2475785, rss 12783280128, vmem 14527893504
+Process "ncl", pid 2475787, rss 13992755200, vmem 14527913984
+Process "ncl", pid 2475788, rss 13535084544, vmem 14527897600
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 10597326848, vmem 10953793536
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9192247296, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 11007574016, vmem 11605581824
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 10261164032, vmem 11605540864
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9670766592, vmem 11605557248
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 8570576896, vmem 11014074368
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 4886405120, vmem 7324368896
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 1044062208, vmem 3481808896
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475787 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7376896, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "bash", pid 2475576, rss 2727936, vmem 10362880
+Process "ncl", pid 2475749, rss 11231342592, vmem 11699245056
+Process "ncl", pid 2475764, rss 12271951872, vmem 13098274816
+Process "ncl", pid 2475765, rss 12069990400, vmem 13132791808
+Process "ncl", pid 2475768, rss 10756632576, vmem 11668619264
+Process "ncl", pid 2475773, rss 13940920320, vmem 14527877120
+Process "ncl", pid 2475775, rss 13535436800, vmem 14527881216
+Process "ncl", pid 2475782, rss 12709507072, vmem 14527905792
+Process "ncl", pid 2475783, rss 11520098304, vmem 12416020480
+Process "ncl", pid 2475784, rss 15809642496, vmem 17387147264
+Process "ncl", pid 2475785, rss 13365796864, vmem 14527893504
+Process "ncl", pid 2475788, rss 14064054272, vmem 14527897600
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 10597339136, vmem 10953793536
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9192275968, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 11248988160, vmem 11605581824
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 10562801664, vmem 11605540864
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9893322752, vmem 11605557248
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 9449107456, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 6387855360, vmem 8825950208
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 3709489152, vmem 6147186688
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 913051648, vmem 3350958080
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475784 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7421952, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475525, rss 2867200, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "ncl", pid 2475749, rss 12766494720, vmem 14566346752
+Process "ncl", pid 2475764, rss 11814957056, vmem 13098274816
+Process "ncl", pid 2475765, rss 12956606464, vmem 14566342656
+Process "ncl", pid 2475768, rss 11123785728, vmem 11668619264
+Process "ncl", pid 2475773, rss 13583605760, vmem 14527877120
+Process "ncl", pid 2475775, rss 14067179520, vmem 14527881216
+Process "ncl", pid 2475782, rss 13438328832, vmem 14527905792
+Process "ncl", pid 2475783, rss 12324634624, vmem 13132795904
+Process "ncl", pid 2475785, rss 14098411520, vmem 14527893504
+Process "ncl", pid 2475788, rss 15000887296, vmem 15957532672
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 10715541504, vmem 11668611072
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9192280064, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167540224, vmem 9524203520
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 10906537984, vmem 11605540864
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9933479936, vmem 11605557248
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 9758904320, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 9274482688, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 6746624000, vmem 9184411648
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 4944179200, vmem 7381938176
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 1526202368, vmem 3969785856
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475788 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7528448, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475491, rss 2752512, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "ncl", pid 2475749, rss 13414735872, vmem 14566346752
+Process "ncl", pid 2475764, rss 12803526656, vmem 14527909888
+Process "ncl", pid 2475765, rss 13608271872, vmem 14566342656
+Process "ncl", pid 2475768, rss 11297071104, vmem 11668619264
+Process "ncl", pid 2475773, rss 16431304704, vmem 17387147264
+Process "ncl", pid 2475775, rss 14382358528, vmem 15957516288
+Process "ncl", pid 2475782, rss 13766205440, vmem 14527905792
+Process "ncl", pid 2475783, rss 11394236416, vmem 13132795904
+Process "ncl", pid 2475785, rss 14041739264, vmem 14527893504
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 10883072000, vmem 11668611072
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9192271872, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167482880, vmem 9524203520
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 11249147904, vmem 11605540864
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 10146484224, vmem 11605557248
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 10083471360, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 9522835456, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 9426644992, vmem 11605569536
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 7844904960, vmem 10282778624
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 3610832896, vmem 6054481920
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 1180880896, vmem 3618598912
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475773 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7442432, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "ncl", pid 2475749, rss 14090678272, vmem 14566346752
+Process "ncl", pid 2475764, rss 13466734592, vmem 14527909888
+Process "ncl", pid 2475765, rss 12775993344, vmem 14566342656
+Process "ncl", pid 2475768, rss 11872358400, vmem 12383436800
+Process "ncl", pid 2475775, rss 16926527488, vmem 17387151360
+Process "ncl", pid 2475782, rss 13200855040, vmem 14527905792
+Process "ncl", pid 2475783, rss 12901699584, vmem 14566346752
+Process "ncl", pid 2475785, rss 17020342272, vmem 17387163648
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 11208146944, vmem 11668611072
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9192386560, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167499264, vmem 9524203520
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 9167740928, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 10437009408, vmem 11605557248
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 10386694144, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 9716977664, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 9809522688, vmem 11605569536
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 9384595456, vmem 11605536768
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 6826438656, vmem 9270263808
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 4672057344, vmem 7109853184
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 1329987584, vmem 3767816192
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7499776, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475501, rss 3100672, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "bash", pid 2475532, rss 2711552, vmem 10362880
+Process "ncl", pid 2475749, rss 14091436032, vmem 14566346752
+Process "ncl", pid 2475764, rss 13467570176, vmem 14527909888
+Process "ncl", pid 2475765, rss 12776722432, vmem 14566342656
+Process "ncl", pid 2475768, rss 11872489472, vmem 12383436800
+Process "ncl", pid 2475775, rss 16926535680, vmem 17387151360
+Process "ncl", pid 2475782, rss 13200875520, vmem 14527905792
+Process "ncl", pid 2475783, rss 12902723584, vmem 14566346752
+Process "ncl", pid 2475785, rss 17020538880, vmem 17387163648
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 11209199616, vmem 11668611072
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9192255488, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167478784, vmem 9524203520
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 9167839232, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 10436898816, vmem 11605557248
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 10386608128, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 9716928512, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 9809522688, vmem 11605569536
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 9384591360, vmem 11605536768
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 6826655744, vmem 9270263808
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 4672086016, vmem 7109853184
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 1329975296, vmem 3767816192
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475775 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+environment: line 1: 2475785 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2543616, vmem 10387456
+Process "perl", pid 2475445, rss 7606272, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2609152, vmem 10362880
+Process "bash", pid 2475512, rss 2629632, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "ncl", pid 2475749, rss 15377637376, vmem 15999897600
+Process "ncl", pid 2475764, rss 14105571328, vmem 14527909888
+Process "ncl", pid 2475765, rss 16275320832, vmem 17433444352
+Process "ncl", pid 2475768, rss 12834439168, vmem 14527889408
+Process "ncl", pid 2475782, rss 16926736384, vmem 17387175936
+Process "ncl", pid 2475783, rss 14025412608, vmem 14566346752
+Process "bash", pid 2475880, rss 3117056, vmem 10362880
+Process "ncl", pid 2475895, rss 12661145600, vmem 13098246144
+Process "bash", pid 2475912, rss 3100672, vmem 10362880
+Process "ncl", pid 2475927, rss 9192374272, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167429632, vmem 9524203520
+Process "bash", pid 2475957, rss 3133440, vmem 10362880
+Process "ncl", pid 2475972, rss 9167794176, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 10916651008, vmem 11605557248
+Process "bash", pid 2476010, rss 3063808, vmem 10362880
+Process "ncl", pid 2476025, rss 10649710592, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 9877135360, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 10654826496, vmem 11605569536
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 9861263360, vmem 11605536768
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 9632075776, vmem 11636002816
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 9282871296, vmem 11605549056
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 8018661376, vmem 10456739840
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 4788224000, vmem 7226093568
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 238747648, vmem 2682441728
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475782 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7434240, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475481, rss 2588672, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "ncl", pid 2475749, rss 16832618496, vmem 17433448448
+Process "ncl", pid 2475764, rss 16699092992, vmem 17387180032
+Process "ncl", pid 2475765, rss 16953626624, vmem 17433444352
+Process "ncl", pid 2475768, rss 13600006144, vmem 14527889408
+Process "ncl", pid 2475783, rss 13854392320, vmem 14566346752
+Process "bash", pid 2475880, rss 2904064, vmem 10362880
+Process "ncl", pid 2475895, rss 10497626112, vmem 13098246144
+Process "bash", pid 2475912, rss 3088384, vmem 10362880
+Process "ncl", pid 2475927, rss 9192308736, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167499264, vmem 9524203520
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 9167679488, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 11249033216, vmem 11605557248
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 10944942080, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 9899962368, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 11115606016, vmem 11605569536
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 10101555200, vmem 11605536768
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 9946009600, vmem 11636002816
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 9589481472, vmem 11605549056
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 9529384960, vmem 11605516288
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 9045266432, vmem 11483209728
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 4120801280, vmem 6564737024
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 760561664, vmem 3198492672
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475765 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7380992, vmem 54067200
+Process "bash", pid 2475470, rss 3170304, vmem 10362880
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "ncl", pid 2475749, rss 18152087552, vmem 18866999296
+Process "ncl", pid 2475764, rss 17020067840, vmem 17387180032
+Process "ncl", pid 2475768, rss 12675796992, vmem 14527889408
+Process "ncl", pid 2475783, rss 16622276608, vmem 17433448448
+Process "bash", pid 2475880, rss 2904064, vmem 10362880
+Process "ncl", pid 2475895, rss 10884624384, vmem 14527881216
+Process "bash", pid 2475912, rss 3088384, vmem 10362880
+Process "ncl", pid 2475927, rss 9192304640, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167466496, vmem 9524203520
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 9167847424, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 11249057792, vmem 11605557248
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 11191906304, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 10119520256, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 11249270784, vmem 11605569536
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 10350043136, vmem 11605536768
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 10250264576, vmem 11636002816
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 9867907072, vmem 11605549056
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 9896456192, vmem 11605516288
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 9476145152, vmem 11605524480
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 8039043072, vmem 10482851840
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 4944171008, vmem 7381942272
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 1314738176, vmem 3752407040
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475749 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7512064, vmem 54067200
+Process "bash", pid 2475475, rss 3076096, vmem 10362880
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "ncl", pid 2475764, rss 19077541888, vmem 20246450176
+Process "ncl", pid 2475768, rss 16415965184, vmem 17387159552
+Process "ncl", pid 2475783, rss 17218924544, vmem 18866999296
+Process "bash", pid 2475880, rss 2904064, vmem 10362880
+Process "ncl", pid 2475895, rss 10531864576, vmem 14527881216
+Process "bash", pid 2475912, rss 3088384, vmem 10362880
+Process "ncl", pid 2475927, rss 9192181760, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167532032, vmem 9524203520
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 9167740928, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9167544320, vmem 9524178944
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 11279601664, vmem 11636023296
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 10515910656, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 9167671296, vmem 9524191232
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 10709041152, vmem 11605536768
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 9192308736, vmem 9548922880
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 10305908736, vmem 11605549056
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 10537017344, vmem 11605516288
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 9864888320, vmem 11605524480
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 9583607808, vmem 11635998720
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 9265971200, vmem 11605540864
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 6179844096, vmem 8617644032
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 3009003520, vmem 5446873088
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475764 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7553024, vmem 54067200
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "bash", pid 2475516, rss 2990080, vmem 10362880
+Process "ncl", pid 2475768, rss 17215479808, vmem 18816794624
+Process "ncl", pid 2475783, rss 20246536192, vmem 21734100992
+Process "bash", pid 2475880, rss 2904064, vmem 10362880
+Process "ncl", pid 2475895, rss 10866384896, vmem 15957516288
+Process "bash", pid 2475912, rss 3088384, vmem 10362880
+Process "ncl", pid 2475927, rss 9192267776, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167589376, vmem 9524203520
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 9167835136, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9167679488, vmem 9524178944
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 9192513536, vmem 9548943360
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 10869424128, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 9167749120, vmem 9524191232
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 11224764416, vmem 11605536768
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 9192411136, vmem 9548922880
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 10812231680, vmem 11605549056
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 10880139264, vmem 11605516288
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 10292948992, vmem 11605524480
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 9987923968, vmem 11635998720
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 9621876736, vmem 11605540864
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 9408040960, vmem 11605561344
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 9032466432, vmem 11470499840
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 3805319168, vmem 6249119744
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475783 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7438336, vmem 54067200
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "ncl", pid 2475768, rss 19827634176, vmem 21676064768
+Process "bash", pid 2475880, rss 2904064, vmem 10362880
+Process "ncl", pid 2475895, rss 14890524672, vmem 20246421504
+Process "bash", pid 2475912, rss 3088384, vmem 10362880
+Process "ncl", pid 2475927, rss 9192316928, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167360000, vmem 9524203520
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 9167802368, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9167679488, vmem 9524178944
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 9192546304, vmem 9548943360
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 11248971776, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 9167851520, vmem 9524191232
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 9167736832, vmem 9524158464
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 9192280064, vmem 9548922880
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 9167843328, vmem 9524170752
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 11249131520, vmem 11605516288
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 10996912128, vmem 11605524480
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 11054981120, vmem 11635998720
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 10340507648, vmem 11605540864
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 10054422528, vmem 11605561344
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 10387402752, vmem 11605520384
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 9784537088, vmem 11635998720
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 6646718464, vmem 9084788736
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7553024, vmem 54067200
+Process "bash", pid 2475478, rss 3198976, vmem 10362880
+Process "ncl", pid 2475768, rss 19830304768, vmem 21676064768
+Process "bash", pid 2475880, rss 2904064, vmem 10362880
+Process "ncl", pid 2475895, rss 14898544640, vmem 20246421504
+Process "bash", pid 2475912, rss 3088384, vmem 10362880
+Process "ncl", pid 2475927, rss 9192312832, vmem 9548935168
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 9167360000, vmem 9524203520
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 9167847424, vmem 9524162560
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9167482880, vmem 9524178944
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 9192452096, vmem 9548943360
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 11248963584, vmem 11605573632
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 9167687680, vmem 9524191232
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 9167695872, vmem 9524158464
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 9192407040, vmem 9548922880
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 9167691776, vmem 9524170752
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 11249127424, vmem 11605516288
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 10996768768, vmem 11605524480
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 11055030272, vmem 11635998720
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 10340548608, vmem 11605540864
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 10054373376, vmem 11605561344
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 10387460096, vmem 11605520384
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 9784455168, vmem 11635998720
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 6648549376, vmem 9086545920
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475768 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7598080, vmem 54067200
+Process "bash", pid 2475912, rss 3088384, vmem 10362880
+Process "ncl", pid 2475927, rss 21377576960, vmem 21734117376
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 16359247872, vmem 17387196416
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 13741973504, vmem 14527885312
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 9507188736, vmem 10238996480
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 10626109440, vmem 10982494208
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 9167597568, vmem 9524195328
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 11037978624, vmem 11668643840
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 10597339136, vmem 10953793536
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 9909211136, vmem 10265698304
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 9167695872, vmem 9524170752
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 9882595328, vmem 10238955520
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 9167712256, vmem 9524146176
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 9192308736, vmem 9548918784
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 9167699968, vmem 9524162560
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 9167749120, vmem 9524183040
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 9167712256, vmem 9524142080
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 9192087552, vmem 9548918784
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 9167495168, vmem 9524146176
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 9167732736, vmem 9524146176
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 9167769600, vmem 9524178944
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475927 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7634944, vmem 54067200
+Process "bash", pid 2475936, rss 3072000, vmem 10362880
+Process "ncl", pid 2475951, rss 18998505472, vmem 20246466560
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 18208804864, vmem 18816790528
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 10597318656, vmem 10953814016
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 10811424768, vmem 11699269632
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 10137792512, vmem 10951872512
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 12039290880, vmem 13098278912
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 11569106944, vmem 12383428608
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 10625990656, vmem 10982473728
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 9995370496, vmem 10953805824
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 10597396480, vmem 10953773056
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 9167712256, vmem 9524146176
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 10625863680, vmem 10982469632
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 9167769600, vmem 9524162560
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 9167814656, vmem 9524183040
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 9167724544, vmem 9524142080
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 9192259584, vmem 9548918784
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 9167450112, vmem 9524146176
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 9167687680, vmem 9524146176
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 9167650816, vmem 9524178944
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 6339268608, vmem 8782708736
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475951 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7573504, vmem 54067200
+Process "bash", pid 2475957, rss 3121152, vmem 10362880
+Process "ncl", pid 2475972, rss 21970698240, vmem 24538136576
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 10834358272, vmem 11668631552
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 11342860288, vmem 11699269632
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 10597171200, vmem 10953830400
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 14166401024, vmem 14527913984
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 13179731968, vmem 14527881216
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 11332538368, vmem 11699249152
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 10606018560, vmem 11668623360
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 11372371968, vmem 12383408128
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 9882591232, vmem 10238963712
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 10970038272, vmem 11699245056
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 9882562560, vmem 10238980096
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 9779654656, vmem 10239000576
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 10597396480, vmem 10953777152
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 9989107712, vmem 10980511744
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 9167458304, vmem 9524146176
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 9167818752, vmem 9524146176
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 9167699968, vmem 9524178944
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 9890013184, vmem 11635994624
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2475972 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7622656, vmem 54067200
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 11779710976, vmem 12383449088
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 15211737088, vmem 15999922176
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 11311874048, vmem 11668647936
+Process "bash", pid 2476052, rss 3235840, vmem 10362880
+Process "ncl", pid 2476067, rss 18460508160, vmem 18816819200
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 13818347520, vmem 14527881216
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 13688700928, vmem 14566350848
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 11342962688, vmem 12383440896
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 13536514048, vmem 14527860736
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 10597429248, vmem 10953781248
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 13029523456, vmem 14566346752
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 10597367808, vmem 10953797632
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 10597478400, vmem 10953818112
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 11158007808, vmem 11668594688
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 10725453824, vmem 11699245056
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 9167585280, vmem 9524146176
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 9167736832, vmem 9524146176
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 9167687680, vmem 9524178944
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 10515849216, vmem 11635994624
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2476067 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7643136, vmem 54067200
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 12866564096, vmem 14527901696
+Process "bash", pid 2476010, rss 3051520, vmem 10362880
+Process "ncl", pid 2476025, rss 18510655488, vmem 18867023872
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 13842731008, vmem 14527918080
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 17543217152, vmem 18816786432
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 14573699072, vmem 15999901696
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 11565441024, vmem 13098258432
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 13844434944, vmem 14527860736
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 10751184896, vmem 11668598784
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 14209675264, vmem 14566346752
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 11393884160, vmem 12383432704
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 11002417152, vmem 11668635648
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 11312029696, vmem 11668594688
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 11650310144, vmem 12416020480
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 10521608192, vmem 10951823360
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 9882628096, vmem 10238963712
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 9440014336, vmem 10238996480
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 10960277504, vmem 11635994624
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2476025 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7643136, vmem 54067200
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 13387345920, vmem 14527901696
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 13681152000, vmem 14527918080
+Process "bash", pid 2476073, rss 3067904, vmem 10362880
+Process "ncl", pid 2476088, rss 19889782784, vmem 20246421504
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 17076965376, vmem 17433452544
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 13488504832, vmem 14527893504
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 17030774784, vmem 17387130880
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 11724423168, vmem 12383416320
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 17076858880, vmem 17433448448
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 11375796224, vmem 12383432704
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 11391184896, vmem 12383453184
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 12826890240, vmem 14527864832
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 12059414528, vmem 12416020480
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 10597203968, vmem 10953781248
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 10384089088, vmem 10953781248
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 10597437440, vmem 10953814016
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 11279409152, vmem 11635994624
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2476088 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7626752, vmem 54067200
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 17030692864, vmem 17387171840
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 17030479872, vmem 17387188224
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 18510516224, vmem 18867003392
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 13833592832, vmem 14527893504
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 19890053120, vmem 20246401024
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 12051599360, vmem 13098233856
+Process "bash", pid 2476179, rss 3162112, vmem 10362880
+Process "ncl", pid 2476194, rss 21377351680, vmem 21734100992
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 13403201536, vmem 14527885312
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 11931443200, vmem 12383453184
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 13837877248, vmem 14527864832
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 13977014272, vmem 14566346752
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 10597113856, vmem 10953781248
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 10597470208, vmem 10953781248
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 10597384192, vmem 10953814016
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 9192275968, vmem 9548914688
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2476194 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7512064, vmem 54067200
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 18460327936, vmem 18816806912
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 19889868800, vmem 20246458368
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 21628395520, vmem 23167655936
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 17030832128, vmem 17387163648
+Process "bash", pid 2476136, rss 3141632, vmem 10362880
+Process "ncl", pid 2476151, rss 22688677888, vmem 24538116096
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 12995100672, vmem 14527868928
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 13442281472, vmem 14527885312
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 13499568128, vmem 14527905792
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 15593611264, vmem 15957499904
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 15801503744, vmem 17433448448
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 11254988800, vmem 11668598784
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 11029151744, vmem 11668598784
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 11347673088, vmem 12383449088
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 9192144896, vmem 9548914688
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2476151 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+
+------------------------------------------------------------------------
+Job 173499703 has exceeded memory allocation on node gadi-cpu-bdw-0602.gadi.nci.org.au
+Process "bash", pid 2475351, rss 3153920, vmem 23941120
+Process "173499703.gadi-", pid 2475421, rss 2535424, vmem 10387456
+Process "perl", pid 2475445, rss 7565312, vmem 54067200
+Process "bash", pid 2475986, rss 3174400, vmem 10362880
+Process "ncl", pid 2476001, rss 21319618560, vmem 21676077056
+Process "bash", pid 2476031, rss 3117056, vmem 10362880
+Process "ncl", pid 2476046, rss 21829189632, vmem 24538169344
+Process "bash", pid 2476094, rss 3108864, vmem 10362880
+Process "ncl", pid 2476109, rss 24071852032, vmem 24604016640
+Process "bash", pid 2476115, rss 3211264, vmem 10362880
+Process "ncl", pid 2476130, rss 19890049024, vmem 20246433792
+Process "bash", pid 2476158, rss 3219456, vmem 10362880
+Process "ncl", pid 2476173, rss 17030766592, vmem 17387139072
+Process "bash", pid 2476200, rss 3133440, vmem 10362880
+Process "ncl", pid 2476215, rss 17030762496, vmem 17387155456
+Process "bash", pid 2476221, rss 3018752, vmem 10362880
+Process "ncl", pid 2476236, rss 13627437056, vmem 14527905792
+Process "bash", pid 2476242, rss 3223552, vmem 10362880
+Process "ncl", pid 2476257, rss 17030766592, vmem 17387134976
+Process "bash", pid 2476263, rss 3108864, vmem 10362880
+Process "ncl", pid 2476278, rss 17076858880, vmem 17433448448
+Process "bash", pid 2476285, rss 3223552, vmem 10362880
+Process "ncl", pid 2476300, rss 12170293248, vmem 13098233856
+Process "bash", pid 2476309, rss 3141632, vmem 10362880
+Process "ncl", pid 2476324, rss 11779108864, vmem 12383416320
+Process "bash", pid 2476344, rss 3125248, vmem 10362880
+Process "ncl", pid 2476359, rss 11800485888, vmem 12383449088
+Process "bash", pid 2476368, rss 2977792, vmem 10362880
+Process "ncl", pid 2476383, rss 9192230912, vmem 9548914688
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+environment: line 1: 2476109 Killed                  ncl "year=\"$year\"" /home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_make_q1_obs.ncl
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
+ncclose: ncid 458752: NetCDF: Can't open HDF5 attribute
