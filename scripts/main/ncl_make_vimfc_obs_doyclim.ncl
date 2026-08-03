@@ -268,8 +268,8 @@ fout->lon       = (/fo_dq_dt&lon/)
 ;----------------------------------------------------------
 ; 3. Data variables — define + attr each explicitly
 ;----------------------------------------------------------
-filevardef(fout, "dq_dt", typeof(fo_dq_dt), (/"dayofyear","level","lat","lon"/))
-filevarattdef(fout, "dq_dt", fo_dq_dt)
+; filevardef(fout, "dq_dt", typeof(fo_dq_dt), (/"dayofyear","level","lat","lon"/))
+; filevarattdef(fout, "dq_dt", fo_dq_dt)
 
 filevardef(fout, "q", typeof(fo_q), (/"dayofyear","level","lat","lon"/))
 filevarattdef(fout, "q", fo_q)
@@ -298,7 +298,7 @@ filevarattdef(fout, "q2", fo_q2)
 ;----------------------------------------------------------
 ; 4. Write actual data
 ;----------------------------------------------------------
-fout->dq_dt              = (/fo_dq_dt/)
+; fout->dq_dt              = (/fo_dq_dt/)
 fout->q                  = (/fo_q/)
 fout->conv_q_meridional  = (/fo_conv_q_meridional/)
 fout->conv_q_zonal       = (/fo_conv_q_zonal/)
@@ -314,9 +314,9 @@ printVarSummary(fout)
 fout@title = "Moisture Budget"
 fout@history = "Created by NCL script on " + systemfunc("date")
 fout@Conventions = "None"
-fout@source_file = fili_q + " and " + fili_u + " and " + fili_v
+fout@source_file = fili_q + " and " + fili_u + " and " + fili_v + " and " + fili_w
 fout@creation_date = systemfunc("date")
-fout@notes = "The dq/dt is NOT the mean of dq/dt but the dq/dt for each doy. Careful while using it. Made it like this to save space."
+fout@notes = "The dq/dt is on the other files."
 fout@institution = "ARC W21C"
 fout@source = "ERA5"
 fout@Conventions = "CF-1.6"

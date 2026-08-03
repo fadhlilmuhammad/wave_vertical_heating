@@ -1,4 +1,8 @@
-Loading conda/analysis3-26.05
+Loading conda/analysis3-26.06
   Loading requirement: singularity
-/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.06/lib/python3.12/site-packages/sitecustomize.py:72: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
   mod = _real_import(name, globals, locals, fromlist, level)
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/create_doyclim.py:24: FutureWarning: In a future version of xarray the default value for join will change from join='outer' to join='exact'. This change will result in the following ValueError: cannot be aligned with join='exact' because index/labels/sizes are not equal along these coordinates (dimensions): 'time' ('time',) The recommendation is to set join explicitly for this case.
+  ds_clim = xr.open_mfdataset(os.path.join(folder,f"{var}_era5_oper_pl_merge*.nc"), chunks="auto")
+/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/create_doyclim.py:24: FutureWarning: In a future version of xarray the default value for compat will change from compat='no_conflicts' to compat='override'. This is likely to lead to different results when combining overlapping variables with the same name. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set compat explicitly.
+  ds_clim = xr.open_mfdataset(os.path.join(folder,f"{var}_era5_oper_pl_merge*.nc"), chunks="auto")
