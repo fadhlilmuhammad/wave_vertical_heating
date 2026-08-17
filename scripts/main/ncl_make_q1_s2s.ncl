@@ -36,6 +36,8 @@ ft = addfile(fili_t, "r")
 ptop = 100.
 pbot = 1000.
 
+nlead = 278
+
 g    = 9.81          ; m/s2
 
 coord_model = fw->wa
@@ -43,11 +45,11 @@ printVarSummary(coord_model)
 
 delete(coord_model)
 
-q2 = short2flt(fq2->q2(0:100,{pbot:ptop},{latS:latN},:))
-w = short2flt(fw->wa(0:100,{pbot:ptop},{latS:latN},:))
-u = short2flt(fu->ua(0:100,{pbot:ptop},{latS:latN},:))
-v = short2flt(fv->va(0:100,{pbot:ptop},{latS:latN},:))
-T = short2flt(ft->ta(0:100,{pbot:ptop},{latS:latN},:))
+q2 = short2flt(fq2->q2(:,{pbot:ptop},{latS:latN},:))
+w = short2flt(fw->wa(:,{pbot:ptop},{latS:latN},:))
+u = short2flt(fu->ua(:,{pbot:ptop},{latS:latN},:))
+v = short2flt(fv->va(:,{pbot:ptop},{latS:latN},:))
+T = short2flt(ft->ta(:,{pbot:ptop},{latS:latN},:))
 
 lon = u&lon 
 lat = u&lat

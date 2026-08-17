@@ -1,30 +1,30 @@
 q1
-<xarray.Dataset> Size: 2GB
-Dimensions:  (time: 5844, level: 12, lat: 29, lon: 144)
+<xarray.Dataset> Size: 12GB
+Dimensions:  (time: 15341, level: 12, lat: 29, lon: 144)
 Coordinates:
-  * time     (time) datetime64[ns] 47kB 1983-01-01T11:00:00 ... 2020-12-31T11...
+  * time     (time) datetime64[ns] 123kB 1979-01-01T11:00:00 ... 2020-12-31T1...
   * level    (level) float32 48B 1e+03 950.0 925.0 900.0 ... 400.0 300.0 250.0
   * lat      (lat) float64 232B -40.0 -37.5 -35.0 -32.5 ... 22.5 25.0 27.5 30.0
   * lon      (lon) float64 1kB 0.0 2.5 5.0 7.5 10.0 ... 350.0 352.5 355.0 357.5
 Data variables:
-    q1       (time, level, lat, lon) float32 1GB dask.array<chunksize=(365, 12, 29, 144), meta=np.ndarray>
-    Q1_cp    (time, level, lat, lon) float32 1GB dask.array<chunksize=(365, 12, 29, 144), meta=np.ndarray>
+    q1       (time, level, lat, lon) float64 6GB dask.array<chunksize=(365, 1, 1, 144), meta=np.ndarray>
+    Q1_cp    (time, level, lat, lon) float64 6GB dask.array<chunksize=(365, 1, 1, 144), meta=np.ndarray>
 Attributes:
     title:          Yanai (1973) Q1 terms and dq_dt
-    history:        Created by NCL script on Fri Jul 10 21:24:17 AEST 2026
+    history:        Created by NCL script on Tue Aug 11 18:18:11 AEST 2026
     source_file:    /home/563/fm6730/localrepo/wave_vertical_heating/data/raw...
-    creation_date:  Fri Jul 10 21:24:18 AEST 2026
+    creation_date:  Tue Aug 11 18:18:12 AEST 2026
     institution:    The University of Melbourne
     data:           ERA5
 
 ======================================================================================
-                  Resource Usage on 2026-07-27 15:47:53:
-   Job Id:             174819706.gadi-pbs
+                  Resource Usage on 2026-08-13 18:23:10:
+   Job Id:             176141955.gadi-pbs
    Project:            v46
    Exit Status:        0
-   Service Units:      0.54
-   NCPUs Requested:    20                  CPU Time Used: 00:01:28        
-   Memory Requested:   200.0GB               Memory Used: 15.86GB         
-   Walltime Requested: 15:00:00            Walltime Used: 00:01:10        
-   JobFS Requested:    200.0GB                JobFS Used: 0B              
+   Service Units:      33.88
+   NCPUs Requested:    20                  CPU Time Used: 00:08:50        
+   Memory Requested:   200.0GB               Memory Used: 18.2GB          
+   Walltime Requested: 15:00:00            Walltime Used: 01:13:11        
+   JobFS Requested:    200.0GB                JobFS Used: 37.0B           
 ======================================================================================

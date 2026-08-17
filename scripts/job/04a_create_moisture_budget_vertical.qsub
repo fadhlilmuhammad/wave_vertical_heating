@@ -8,7 +8,7 @@
 #PBS -l mem=200gb
 #PBS -l wd
 #PBS -P v46
-#PBS -l jobfs=200GB
+#PBS -l jobfs=300GB
 #PBS -l storage=scratch/v46+gdata/v46+gdata/ux62+gdata/xp65+gdata/su28
 #PBS -N create_mfc
 #PBS -o /home/563/fm6730/localrepo/wave_vertical_heating/scripts/logs/create_mfc.out
@@ -20,6 +20,8 @@ module load ncl
 module load parallel
 
 ens=$ens
+
+JOB_CPU=5
 
 # SCRIPT=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/bash_ncl_make_vimfc_s2s.sh
 CHUNK_DIR=/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/chunks
@@ -51,7 +53,7 @@ export -f run_case
 export ens
 
 
-parallel -j ${PBS_NCPUS} run_case :::: ${INPUTS}
+parallel -j ${JOB_CPU} run_case :::: ${INPUTS}
 # parallel --dry-run -j 2 run_case :::: ${INPUTS}
 # cat ${INPUTS}
 # echo $INPUTS

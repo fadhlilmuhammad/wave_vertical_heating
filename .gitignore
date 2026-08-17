@@ -1,6 +1,9 @@
 # Data folders are not included in the repo, usually to big!
 data/
 
+# NetCDF files
+*.nc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 analysis/__pycache__/

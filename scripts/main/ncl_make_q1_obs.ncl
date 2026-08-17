@@ -269,8 +269,8 @@ filevardef(fout, "lon", typeof(fo_q1&lon), "lon")
 
 ; data variables
 ; filevardef(fout, "dq_dt", "float", (/"time","level","lat","lon"/))
-filevardef(fout, "q1", "float", (/"time","level","lat","lon"/))
-filevardef(fout, "Q1_cp", "float", (/"time","level","lat","lon"/))
+filevardef(fout, "q1", "double", (/"time","level","lat","lon"/))
+filevardef(fout, "Q1_cp", "double", (/"time","level","lat","lon"/))
 ; filevardef(fout, "q2", "float", (/"time","level","lat","lon"/))
 ; filevardef(fout, "qr_eddy", "float", (/"time","level","lat","lon"/))
 

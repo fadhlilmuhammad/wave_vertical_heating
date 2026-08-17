@@ -1,0 +1,603 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+
+
+Variable: years
+Type: integer
+Total Size: 16 bytes
+            4 values
+Number of Dimensions: 1
+Dimensions and sizes:	[4]
+Coordinates: 
+(0)	2014
+(1)	2015
+(2)	2016
+(3)	2017
+
+
+Variable: fname_obs
+Type: string
+Total Size: 32 bytes
+            4 values
+Number of Dimensions: 1
+Dimensions and sizes:	[4]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	missing
+(0)	/home/563/fm6730/localrepo/wave_vertical_heating/data/temp/wave_vertical_heating/q1/q1_era5_oper_pl_merge_2.5deg_daily_eq_2014.nc
+(1)	/home/563/fm6730/localrepo/wave_vertical_heating/data/temp/wave_vertical_heating/q1/q1_era5_oper_pl_merge_2.5deg_daily_eq_2015.nc
+(2)	/home/563/fm6730/localrepo/wave_vertical_heating/data/temp/wave_vertical_heating/q1/q1_era5_oper_pl_merge_2.5deg_daily_eq_2016.nc
+(3)	/home/563/fm6730/localrepo/wave_vertical_heating/data/temp/wave_vertical_heating/q1/q1_era5_oper_pl_merge_2.5deg_daily_eq_2017.nc
+
+Variable: x_min2
+Type: float
+Total Size: 17452800 bytes
+            4363200 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 101] x [z1_p_level | 12] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17197..17297]
+            z1_p_level: [1000..100]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: x_tlag
+Type: float
+Total Size: 50803200 bytes
+            12700800 values
+Number of Dimensions: 5
+Dimensions and sizes:	[time_lag | 3] x [time | 98] x [z1_p_level | 12] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time_lag: [-2..0]
+            time: [17199..17296]
+            z1_p_level: [1000..100]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  _FillValue :	-1.073742e+09
+  units :	K/day
+  long_name :	q1: Net Heat Flux per day
+  time_lag :	lagged by 2, 1, and 0 days
+
+Variable: smth_clmDay
+Type: float
+Total Size: 63244800 bytes
+            15811200 values
+Number of Dimensions: 4
+Dimensions and sizes:	[dayofyear | 366] x [level | 12] x [lat | 25] x [lon | 144]
+Coordinates: 
+            dayofyear: [1..366]
+            level: [1000..250]
+            lat: [30..-30]
+            lon: [ 0..357.5]
+Number Of Attributes: 6
+  _FillValue :	nan
+  units :	K/day
+  long_name :	q1: Net Heat Flux per day
+  information :	Smoothed daily climatological averages
+  smoothing :	FFT: 3 harmonics were retained.
+  typeConversion_op_ncl :	double converted to float
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [17199..17296]
+            lat: [  30.. -30]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  _FillValue :	-1.073742e+09
+  long_name :	Anomalies: q1: Net Heat Flux per day
+  units :	K/day
+
+Variable: anom_temp
+Type: float
+Total Size: 1411200 bytes
+            352800 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 98] x [lat | 25] x
