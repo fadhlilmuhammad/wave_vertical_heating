@@ -20,7 +20,8 @@ module use /g/data/xp65/public/modules/
 module load ncl 
 module load parallel
 
-DATELIST="/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/dates_s2sfilter.txt"
+# DATELIST="/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/dates_s2sfilter.txt"
+DATELIST="/home/563/fm6730/localrepo/wave_vertical_heating/scripts/input_forjob/dates_s2sfilter_patch.txt"
 SCRIPT="/home/563/fm6730/localrepo/wave_vertical_heating/scripts/main/ncl_filter_wave_s2s.ncl"
 
 JOB_CPU=5

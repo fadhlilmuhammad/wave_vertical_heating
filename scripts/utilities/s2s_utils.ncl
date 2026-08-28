@@ -653,6 +653,7 @@ begin
   ; ; printVarSummary(pad)
   ; ; print("padding pad...")
   pad_converted = (/tofloat(pad)/)
+  print(ind_init)
   x(0:npad-1,:,:) = (/pad_converted((ind_init - npad):ind_init-1, :, :)/)
   ; ; print("padding_data")
   ; printVarSummary(x(npad:,:,:))

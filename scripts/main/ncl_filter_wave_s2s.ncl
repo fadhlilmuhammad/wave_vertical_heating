@@ -2,29 +2,37 @@ load "/home/563/fm6730/localrepo/wave_vertical_heating/scripts/utilities/s2s_uti
 load "/home/563/fm6730/localrepo/wave_vertical_heating/scripts/utilities/kf_filter.ncl"
 
 
-ens = ens 
-var = var 
-wave = wave
+; ens = ens 
+; var = var 
+; wave = wave
 
-; ens = "e01"
-; var = "q1"
+ens = "e01"
+var = "q1"
+wave = "mjo"
+
 nint = 277
 npad = 365 
 nfil = npad*2-nint
-; wave = "mjo"
 
 latN = 30.
 latS = -30
 
-day_min2 = day_min2
-day_min1 = day_min1 
-day_min0 = day_min0
-; day_min2 = 19810130
-; day_min1 = 19810131
-; day_min0 = 19810201
+; day_min2 = day_min2
+; day_min1 = day_min1 
+; day_min0 = day_min0
+; day_min2 = 19811230
+; day_min1 = 19811231
+; day_min0 = 19820101
+
+
+day_min2 = 19820130
+day_min1 = 19810131
+day_min0 = 19820201
+
+
 init = day_min0
 
-year_0 = toint(str_get_cols(tostring(day_min2), 0, 3))
+year_0 = toint(str_get_cols(tostring(day_min0), 0, 3))
 ; year_3 = toint(year_0)-3
 year_2 = toint(year_0)-2
 year_1 = toint(year_0)-1 
@@ -146,6 +154,8 @@ do j = 0, nlev-1
     x_obs_anom(:,j,:,:) =  calcDayAnomTLL(xobs(:, j, :, :), yyyyddd_obs, smth_clmDay(:,j,:,:))
 end do
 
+print(date_obs(ind_init))
+ind_init_obs = toint(ind(init.eq.date_obs))
 ; anomaly padded with obs anom
 x_tlag_obs_pad = observation_padding_ensemble_TLLL(x_anom_detrend, x_obs_anom,ind_init, npad*2 )
 
