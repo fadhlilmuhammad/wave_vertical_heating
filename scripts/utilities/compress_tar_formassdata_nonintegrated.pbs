@@ -1,0 +1,39 @@
+#!/bin/bash
+#PBS -N tar_to_massdata
+#PBS -P v46
+#PBS -q copyq
+#PBS -l ncpus=1
+#PBS -l wd
+#PBS -l mem=60GB
+#PBS -l storage=massdata/v46+gdata/v46+scratch/v46
+#PBS -l walltime=1:00:00
+#PBS -j oe
+
+set -e
+
+v1="$VAR"
+ens_member=${ENS_MEMBER}
+
+SRC="/g/data/v46/fm6730/data/access_s2/${v1}/${ens_member}"
+TAR="/scratch/v46/fm6730/data/access_s2/access_s2_${ens_member}_${v1}_raw.tar.gz"
+
+echo "Starting ${v1}: $(date)"
+echo "Source: $SRC"
+echo "Tar: $TAR"
+
+# Create tar archive
+tar -cvzf "$TAR" "$SRC"
+
+echo "Tar completed: $(date)"
+
+# Send to MASSDATA
+mdss mkdir fm6730/data/access_s2/${v1}
+mdss mkdir fm6730/data/access_s2/${v1}/${ENS_MEMBER}
+mdss put "$TAR" fm6730/data/access_s2/${v1}/${ENS_MEMBER}/
+
+echo "MASSDATA transfer completed: $(date)"
+
+# Remove temporary tar
+rm -f "$TAR"
+
+echo "Finished ${v1}: $(date)"

@@ -13,8 +13,8 @@ ens = ens
 
 ; init = "19810430"
 ; ens = "e03"
-print(init)
-print(ens)
+; print(init)
+; print(ens)
 
 start_time = systemfunc("date +%s")
 print("Script started at: " + systemfunc("date"))

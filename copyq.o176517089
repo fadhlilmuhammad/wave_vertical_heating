@@ -1,0 +1,16 @@
+Starting conv_q: Mon Aug 17 21:03:20 AEST 2026
+Source: /g/data/v46/fm6730/data/access_s2/integrated/conv_q
+Tar: /scratch/v46/fm6730/data/access_s2/access_s2_conv_q_raw.tar.gz
+Can't upload to non-existent directory (e.g. '/nci/massdata/v46/fm6730/data/access_s2/data/').
+
+======================================================================================
+                  Resource Usage on 2026-08-17 21:06:31:
+   Job Id:             176517089.gadi-pbs
+   Project:            v46
+   Exit Status:        1
+   Service Units:      2.62
+   NCPUs Requested:    1                   CPU Time Used: 00:01:27        
+   Memory Requested:   100.0GB               Memory Used: 32.94GB         
+   Walltime Requested: 05:00:00            Walltime Used: 00:03:09        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================

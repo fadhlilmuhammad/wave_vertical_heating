@@ -2,28 +2,36 @@ load "/home/563/fm6730/localrepo/wave_vertical_heating/scripts/utilities/s2s_uti
 load "/home/563/fm6730/localrepo/wave_vertical_heating/scripts/utilities/kf_filter.ncl"
 
 
-ens = "e01"
-var = "q1"
-nint = 98 
+ens = ens 
+var = var 
+wave = wave
+
+; ens = "e01"
+; var = "q1"
+nint = 277
 npad = 365 
 nfil = npad*2-nint
-wave = "mjo"
+; wave = "mjo"
 
 latN = 30.
 latS = -30
 
-day_min2 = 20170130
-day_min1 = 20170131
-day_min0 = 20170201
+day_min2 = day_min2
+day_min1 = day_min1 
+day_min0 = day_min0
+; day_min2 = 19810130
+; day_min1 = 19810131
+; day_min0 = 19810201
 init = day_min0
 
 year_0 = toint(str_get_cols(tostring(day_min2), 0, 3))
-year_3 = toint(year_0)-3
+; year_3 = toint(year_0)-3
 year_2 = toint(year_0)-2
 year_1 = toint(year_0)-1 
 
 
-years = (/year_3, year_2, year_1, year_0/)
+; years = (/year_3, year_2, year_1, year_0/)
+years = (/year_2, year_1, year_0/)
 print(years)
 
 folder = "/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/q1_vert_structure/"+ens+"/"
@@ -213,7 +221,7 @@ if HF_filter then
     ; Get rid of the first 50 (missing value not accepted for fft filtering)
     x_hipass = xpad_zero(time|50:,lev|:,lat|:,lon|:,time_lag|:)
     ; Force zero at the end of the tail
-    x_hipass(npad*2+nint-100:,:,:,:,:) = 0.
+    x_hipass(npad*2+nint-50:,:,:,:,:) = 0.
     ; x_hipass(958-50:,:,:,:) = 0.
     if (any(ismissing(x_hipass))) then
         print("x_hipass contains missing values")
@@ -232,6 +240,7 @@ else
 end if
 
 printVarSummary(x_hipass)
+x_hipass@units= x_min0@units
 
 print("======================================")
 print("Missing value check")
@@ -256,6 +265,8 @@ print("  missing = " + num(ismissing(x_hipass_first)))
 
 print("x_hipass:")
 print("  missing = " + num(ismissing(x_hipass)))
+printMinMax(x_hipass, False)
+; print("  minmax = " + printMinMax(x_hipass, 0))
 
 print("======================================")
 
@@ -309,9 +320,8 @@ time_hipass = x_hipass&time
 lon_hipass  = x_hipass&lon
 lat_hipass  = x_hipass&lat
 lev_hipass  = x_hipass&lev 
-printVarSummary((x_hipass))
-printMinMax(x_hipass, False)
 ; printVarSummary((x_hipass))
+printVarSummary((x_hipass))
 
 filtered = new((/dimsizes(time_hipass), dimsizes(lev_hipass), dimsizes(lat_hipass), dimsizes(lon_hipass), dimsizes(time_lag_hipass)/), float, -999.)
 
@@ -329,11 +339,12 @@ filtered&lev  = lev_hipass
 filtered&lat = lat_hipass
 filtered&lon = lon_hipass
 
-filtered@units = x_hipass@units
+filtered@units = x_min0@units
 obsPerDay = 1
 
 mis = -999.
-
+x_hipass@_FillValue = mis
+filtered@_FillValue = mis
 
 
 ; printVarSum
@@ -392,54 +403,76 @@ end if
 end if
 
 do l = 0, nlev-1
+    print(lev_hipass(l))
     do tl = 0, nens-1
+    print(time_lag_hipass(tl))
         do y = 0, (dimsizes(lat_hipass) - 1)
             filtered(time|:, lev|l, lat|y, lon|:, time_lag|tl) = (/kf_filter(x_hipass(time|:, lev|l, lat|y, lon|:, time_lag|tl), obsPerDay, period(0), period(1), wavenumber(0), wavenumber(1), depth(0), depth(1), wave_type)/)
+            ; cek = (/kf_filter(x_hipass(time|:, lev|l, lat|y, lon|:, time_lag|tl), obsPerDay, period(0), period(1), wavenumber(0), wavenumber(1), depth(0), depth(1), wave_type)/)
+            ; print(cek)
             print((/lat_hipass(y)/))
-            printMinMax((filtered), 0)
+            ; printVarSummary(filtered)
+            ; printMinMax((filtered), 0)
         end do
     end do
 end do
 
+; filtered = x_hipass
+
 ; printVarSummary(filtered)
 ; printMinMax(filtered, False)
 
-print("Opening the output file...")
 
 ; print(filtered(0,:,0,120))
 
+rad    = 4.0*atan(1.0)/180.0
+
+
+filtered_reorder = filtered(time|:,lev|:, {lat|-15:15}, lon|:, time_lag|:)
+printVarSummary(filtered_reorder)
+
+
+clat   = cos(filtered_reorder&lat*rad)
+printVarSummary(clat)
+
+
+opt=2 ;opt>1 means to return the mean only if the number of non-missing values is greater-than or equal to opt.
+filtered_vert = dim_avg_wgt_n_Wrap(filtered_reorder, clat, opt, 2)
 
 outname = wave+"_tlag_da_"+var+"_"+init+"_"+ens+"_remap_padded"
-folder_out = "/home/563/fm6730/localrepo/wave_vertical_heating/data/temp/wave_vertical_heating/"
+folder_out = "/home/563/fm6730/localrepo/wave_vertical_heating/data/derived/filtered/q1_vert_structure/"+wave+"/"
 
+system("mkdir -p "+folder_out)
+
+print("Opening the output file...")
 system("rm "+folder_out+wave+"_"+outname+".nc")
 g = addfile(folder_out+wave+"_"+outname+".nc", "c")
 
 print("Writing the output file...")
 
-date_filtered = cd_calendar(filtered&time, -2)
+date_filtered = cd_calendar(filtered_vert&time, -2)
 idinit = ind(date_filtered.eq.init)
 print(idinit)
 print(date_filtered(idinit))
 if wave.eq."LF" then 
-    g->$var$ = filtered(time|:,lev|:, lat|:,lon|:,time_lag|:)
+    g->$var$ = filtered_vert(time|:,lev|:,lon|:,time_lag|:)
 else
-    g->$var$ = filtered(time|idinit:idinit+nint,lev|:,lat|:,lon|:,time_lag|:)
+    g->$var$ = filtered_vert(time|idinit:idinit+nint,lev|:,lon|:,time_lag|:)
 end if
 
 ; print(filtered(time|idinit:idinit+nint,lat|0,lon|0,time_lag|0))
 print("Closing the output file...")
 
-delete(filtered)
+; delete(filtered)
 
 check_memory("On-the-fly Data Preparation & Filtering ")
 ; fout = addfile("check_hipass.nc", "c")
 ; fout->x_hipass = x_hipass
 
 
-plot_2d_latlon(x_hipass, 461, 5, 0, \
-               "hipass Q1 at 500 hPa", \
-               "hipass_500hPa")
+; plot_2d_latlon(x_hipass, 461, 5, 0, \
+;                "hipass Q1 at 500 hPa", \
+;                "hipass_500hPa")
 
 ; plot_2d_latlon(x_tlag_anom, 0, 4, 0, \
 ;                "tlag_anom Q1 at 500 hPa", \

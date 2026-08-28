@@ -190,6 +190,9 @@ begin
   retVal@period     = (/ tMin, tMax /)
   retVal@depth      = (/ hMin, hMax /)
   retVal@waveName   = waveName
+
+  ; printVarSummary(retVal)
+  ; printMinMax(retVal, 0)
 ; return the filtered data
   return( retVal )
 end
